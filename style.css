@@ -1,0 +1,245 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Nature Animals Computers Mythology History General"
+    "Question-1 Question-2 Question-3 Question-4 Question-5 Question-6"
+    "Question-7 Question-8 Question-9 Question-10 Question-11 Question-12"
+    "Question-13 Question-14 Question-15 Question-16 Question-17 Question-18"
+    "Question-19 Question-20 Question-21 Question-22 Question-23 Question-24"
+    "Question-25 Question-26 Question-27 Question-28 Question-29 Question-30";
+}
+
+.Nature {
+  grid-area: Nature;
+  background-color: #0e23ac;
+}
+.Animals {
+  background-color: #0e23ac;
+}
+.container div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 1px 1px;
+  grid-template-rows: 30px 1fr 50px;
+  grid-template-columns: 100px 1fr;
+}
+.Computers {
+  grid-area: Computers;
+  background-color: #0e23ac;
+}
+body {
+  background-color: #0e23ac;
+  color: aliceblue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal {
+      display: none; 
+      position: fixed; 
+      z-index: 1; 
+      left: 0;
+      top: 0;
+      width: 100%; 
+      height: 100%; 
+      overflow: auto; 
+      background-color: rgb(0,0,0); 
+      background-color: rgba(0,0,0,0.4); 
+      padding-top: 60px; 
+    }
+    .modal-content {
+      background-color: #fefefe;
+      margin: 5% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+    }
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .close:hover,
+    .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+.Mythology {
+  grid-area: Mythology;
+  background-color: #0e23ac;
+}
+
+.History {
+  grid-area: History;
+  background-color: #0e23ac;
+}
+
+.General {
+  grid-area: General;
+  background-color: #0e23ac;
+}
+
+.Question-1 {
+  grid-area: Question-1;
+  background-color: #0e23ac;
+}
+
+.Question-2 {
+  grid-area: Question-2;
+  background-color: #0e23ac;
+}
+
+.Question-3 {
+  grid-area: Question-3;
+  background-color: #0e23ac;
+}
+
+.Question-4 {
+  grid-area: Question-4;
+  background-color: #0e23ac;
+}
+
+.Question-5 {
+  grid-area: Question-5;
+  background-color: #0e23ac;
+}
+
+.Question-6 {
+  grid-area: Question-6;
+  background-color: #0e23ac;
+}
+
+.Question-7 {
+  grid-area: Question-7;
+  background-color: #0e23ac;
+}
+
+.Question-8 {
+  grid-area: Question-8;
+  background-color: #0e23ac;
+}
+
+.Question-9 {
+  grid-area: Question-9;
+  background-color: #0e23ac;
+}
+
+.Question-10 {
+  grid-area: Question-10;
+  background-color: #0e23ac;
+}
+
+.Question-11 {
+  grid-area: Question-11;
+  background-color: #0e23ac;
+}
+
+.Question-12 {
+  grid-area: Question-12;
+  background-color: #0e23ac;
+}
+
+.Question-13 {
+  grid-area: Question-13;
+  background-color: #0e23ac;
+}
+
+.Question-14 {
+  grid-area: Question-14;
+  background-color: #0e23ac;
+}
+
+.Question-15 {
+  grid-area: Question-15;
+  background-color: #0e23ac;
+}
+
+.Question-16 {
+  grid-area: Question-16;
+  background-color: #0e23ac;
+}
+
+.Question-17 {
+  grid-area: Question-17;
+  background-color: #0e23ac;
+}
+
+.Question-18 {
+  grid-area: Question-18;
+  background-color: #0e23ac;
+}
+
+.Question-19 {
+  grid-area: Question-19;
+  background-color: #0e23ac;
+}
+
+.Question-20 {
+  grid-area: Question-20;
+  background-color: #0e23ac;
+}
+
+.Question-21 {
+  grid-area: Question-21;
+  background-color: #0e23ac;
+}
+
+.Question-22 {
+  grid-area: Question-22;
+  background-color: #0e23ac;
+}
+
+.Question-23 {
+  grid-area: Question-23;
+  background-color: #0e23ac;
+}
+
+.Question-24 {
+  grid-area: Question-24;
+  background-color: #0e23ac;
+}
+
+.Question-25 {
+  grid-area: Question-25;
+  background-color: #0e23ac;
+}
+
+.Question-26 {
+  grid-area: Question-26;
+  background-color: #0e23ac;
+}
+
+.Question-27 {
+  grid-area: Question-27;
+  background-color: #0e23ac;
+}
+
+.Question-28 {
+  grid-area: Question-28;
+  background-color: #0e23ac;
+}
+
+.Question-29 {
+  grid-area: Question-29;
+  background-color: #0e23ac;
+}
+
+.Question-30 {
+  grid-area: Question-30;
+  background-color: #0e23ac;
+}
+
+.index-img {
+  width: 40%;
+}

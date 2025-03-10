@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
+    <title>Jeopardy</title>
+  </head>
+  <body>
+    <header>First Round</header>
+
+    <h1>Player Turn</h1>
+
+    <div class="container">
+      <div class="Nature" id="Nature">Nature</div>
+      <div class="Animals">Animals</div>
+      <div class="Computers">Computers</div>
+      <div class="Mythology">Mythology</div>
+      <div class="History">History</div>
+      <div class="General">General</div>
+      <div class="Question-1">100</div>
+      <div class="Question-2">100</div>
+      <div class="Question-3">100</div>
+      <div class="Question-4">100</div>
+      <div class="Question-5">100</div>
+      <div class="Question-6">100</div>
+      <div class="Question-7">200</div>
+      <div class="Question-8">200</div>
+      <div class="Question-9">200</div>
+      <div class="Question-10">200</div>
+      <div class="Question-11">200</div>
+      <div class="Question-12">200</div>
+      <div class="Question-13">300</div>
+      <div class="Question-14">300</div>
+      <div class="Question-15">300</div>
+      <div class="Question-16">300</div>
+      <div class="Question-17">300</div>
+      <div class="Question-18">300</div>
+      <div class="Question-19">400</div>
+      <div class="Question-20">400</div>
+      <div class="Question-21">400</div>
+      <div class="Question-22">400</div>
+      <div class="Question-23">400</div>
+      <div class="Question-24">400</div>
+      <div class="Question-25">500</div>
+      <div class="Question-26">500</div>
+      <div class="Question-27">500</div>
+      <div class="Question-28">500</div>
+      <div class="Question-29">500</div>
+      <div class="Question-30">500</div>
+    </div>
+
+    <textarea name="message" id="input-box"></textarea>
+    <div>
+      <button>Guess</button>
+      <button>Pass</button>
+    </div>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Nature clicked</p>
+      </div>
+    </div>
+    <div id="dynamicH1Container"></div>
+
+    <div class="score">
+      <div>
+        <h2 id="player1-name">Player 1</h2>
+        <h2>score</h2>
+      </div>
+      <div>
+        <h2 id="player2-name">Player 2</h2>
+        <h2>score:</h2>
+      </div>
+    </div>
+
+    <button id="next-round" onclick="window.location.href ='round-2.html'">
+      Next Round
+    </button>
+
+    <footer id="gamer-footer">Site Information</footer>
+    <!-- Do not change the script source. Allows import/export to work. -->
+    <script src="./scripts/index.js" type="module"></script>
+  </body>
+</html>
